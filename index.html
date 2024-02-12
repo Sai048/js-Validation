@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="main">
+        <form id="form">
+            <div class="form-control">
+                <label for="firstname">First Name:<input type="text" id="firstname"
+                        placeholder="Enter Your First Name" /></label>
+                <br />
+                <small>Error</small>
+            </div>
+            <div class="form-control">
+                <label for="lastname">Last Name:<input type="text" id="lastname"
+                        placeholder="Enter Your Last Name" /></label>
+                <br />
+                <small>Error</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email:<input type="email" id="email" placeholder="Enter Your Email" /></label>
+                <br />
+                <small>Error</small>
+            </div>
+            <div class="form-control">
+                <label for="feedback">Feed back:<input type="text" id="feedback"
+                        placeholder="Enter Your Feedback" /></label>
+                <br />
+                <small>Error</small>
+            </div>
+            <br />
+            <button type="submit" class="button" onkeydown="navigatetoanotherpage()" >Submit</button>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
